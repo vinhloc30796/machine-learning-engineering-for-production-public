@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "week1-ungraded-lab"
+version = "0.1.0"
+description = ""
+authors = ["Loc Nguyen <vinhloc30796@gmail.com>"]
+readme = "README.md"
+packages = [{include = "week1_ungraded_lab"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+cvlib = "0.2.6"
+opencv-python-headless = "4.5.3.56"
+uvicorn = "0.16.0"
+python-multipart = "0.0.5"
+fastapi = "0.70.1"
+nest-asyncio = "1.5.4"
+jupyterlab = "3.2.5"
+tensorflow = "2.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
